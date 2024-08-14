@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    
+</head>
+<body>
+    <header>
+        <a href="https://www.aluracursos.com/"><img src="logo.png" class="logo" alt="logoAlure"></a>
+   </header>
+   <main>
+     <h1 data-text="Encriptador de Texto">Encriptador de Texto</h1>
+    <section class="mainText">
+        <div class="mainText__inputText">
+            <div class="areaInputText">
+            <!-- Entrada de texto -->
+            <textarea id="inputText" placeholder="">Ingrese el texto aquí</textarea>
+            </div> 
+             <!-- Requisitos del Texto -->
+            <div class="requisitos">
+                <img src="exclamacion.png" alt="exclamacion" id="exclamacion"> 
+                <p  id="requisitosTexto">Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="buttonsFunctions">
+                <!-- Botónes para ejecutar las funciónes -->
+                <button onclick="procesarTexto()" class="button button1">Encriptar</button>
+                <button onclick="desencriptarTexto()" class="button button2">Desencriptar</button>
+            </div>
+             
+        </div>
+
+        <div class="mainText__outputText" >
+            <div class="mainText__outputText__setWarnings">
+                <!-- Campo de imagen visible inicialmente -->
+                <img id="imagenAdvertencia" class="imagenAdvertencia" src="imagen.png" alt="Advertencia" style="display: block;">
+            </div>   
+            
+            <!-- Párrafo de advertencia oculto inicialmente -->
+            <p id="parrafoAdvertencia" style="display: block;">Ningún mensaje fue encontrado</p>
+    
+            <!-- Segundo textarea para copiar el texto encriptado-->
+            <textarea id="outputText" placeholder=""   readonly  >Ingresa el texto que deseas encriptar o desencriptar</textarea>
+
+            <p id="textCopy" style="display:none;">Mensaje encriptado copiado</p>
+            
+            <!-- Botón para copiar el texto del segundo textarea -->
+            <button onclick="copiarAlPortapapeles()" style="display: none" id="buttonCopy" class="button button3">Copiar</button>
+
+        </div>
+     </section>   
+    </main>
+    
+    <footer>
+        <div class="footer__ElaboradoPor">
+            <h3>Elaborado por: William Solorzano </h3>
+            
+        </div>
+        <div class="footer__IconosRedes">
+            <a href="mailto:william.rogerss@gmail.com"><img src="email.png" alt="email" class="email"></a>
+            <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/william-solorzano-ss" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.github.com/wrogerss" class="icon"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+        <!-- Referencia al archivo JavaScript -->
+        <script src="script.js"></script>
+
+   </body>
+</html>
