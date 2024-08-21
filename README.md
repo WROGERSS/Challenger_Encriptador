@@ -20,5 +20,5 @@ The idea of the program is to have the next capabilities:
 ### Diagram
 This is the interface of the encryptor and its functionalities
 
-![Typping Bucket Rain Gauge Diagram](./data/interfase_encriptador.png)
+![Typping Bucket Rain Gauge Diagram](interfase_encriptador.png)
 
