@@ -2,7 +2,7 @@
 
 For this project we are building a  text encriptor similar to this one:
 
-[Encriptor Text](https://wrogerss.github.io/Challenger_Encriptador/)
+[Link Text Encriptor](https://wrogerss.github.io/Challenger_Encriptador/)
 
 I've used a Programming tools like:
 
