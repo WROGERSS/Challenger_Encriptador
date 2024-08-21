@@ -1,8 +1,8 @@
-# Text Encriptor
+# Text Encryptor
 
-For this project we are building a  text encriptor similar to this one:
+For this project we are building a  text encryptor similar to this one:
 
-[Link Text Encriptor](https://wrogerss.github.io/Challenger_Encriptador/)
+[Link Text Encryptor](https://wrogerss.github.io/Challenger_Encriptador/)
 
 I've used a Programming tools like:
 
